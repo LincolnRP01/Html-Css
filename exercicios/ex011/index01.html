@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Tamanho</title>
+</head>
+<body>
+    <h1>Teste de Flexibilidade</h1>
+    <picture>
+        <source media="(max-width:750px)" srcset="img/img-pequena.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="img/imagen-media.png" type="image/png">
+        <img src="img/img-grande2.png" alt="imagen flexivel">
+    </picture>
+
+    <h1>Teste de Audios</h1>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/musica1.mp3" type="audio/mpeg">
+        <source src="midia/musica1.ogg" type="audio/ogg">
+        <source src="midia/musica1.wav" type="audio/wav">
+    </audio>
+
+    <p> Para baixar click <a href="midia/musica1.mp3" download="midia/musica1.mp3" type="audio/mpeg">aqui</a></p>
+
+</body>
+
+</html>

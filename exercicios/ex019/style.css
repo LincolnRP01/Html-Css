@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color: #54CCCC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #2b6464;
+    font: italic 2em 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+
+}
+h1#principal {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-style: italic;
+    background-color: #B5FFFF;
+}
+h2{
+    color: #69FFFF;
+}
+.basico{
+    color: rgb(41, 41, 155);
+}
+.intermediario{
+    color: rgb(165, 165, 41);
+}
+.avançado{
+    color: rgb(180, 39, 39);
+}
+p{
+    color: #7A8C8C;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}

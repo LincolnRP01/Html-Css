@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images de Tamanho diferentes</title>
+</head>
+<body>
+    <h1>Test de imagens flexiveis</h1>
+    <picture>
+        <source media="(max-width:750px )" srcset="img/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="img/imagen-media.png" type="image/png">
+        <img src="img/img-grande.png" alt="imagen flexivel">
+
+
+    </picture>
+
+    <h1>Audios</h1>
+
+    <audio controls preload="metadata">
+        <source src="midia/musica1.mp3" type="audio/mpeg">
+        <source src="midia/musica1.mp3" type="audio/ogg">
+
+
+
+
+    </audio>
+    
+</body>
+</html>
