@@ -12,11 +12,12 @@
 :root{
     --font-destaque: 'Passion One', cursive;
     --font-texto: 'Sriracha', cursive;
-    --font-padrao: Arial, sans-serif;
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html, body{
     min-height: 100%;
+    font-family: var(--font-padrao);
 
 }
 
@@ -29,6 +30,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font-destaque);
+    font-size: 10vw;
 }
 
 header > p{
@@ -50,6 +53,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font-texto);
+    font-size: 4.5vw;
 }
 
 main section.normal{
@@ -64,7 +69,7 @@ main section.img{
 
 section.img > p{
     background-color: rgba(0, 0, 0, 0.301);
-    width: 500px;
+    display: inline-block;
 }
 
 footer{
