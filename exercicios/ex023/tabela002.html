@@ -5,9 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(202, 201, 201);
+        }
+        h1{
+            background-image: linear-gradient(to bottom, black
+            , rgb(76, 75, 75) ,gray);
+            height: 10vh;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.432);
+            text-align: center;
+            vertical-align: middle;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+        }
+        table{
+            border: 2px solid black;
+            width: 450px;
+            height: 350px;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        tbody  td{
+            background-color: white;
+        }
+        td.numero{
+            text-align: right;
+        }
+        th{
+            padding: 10px;
+            border: 2px solid rgb(0, 0, 0);
+        }
+        thead, tfoot{
+            background-color: rgb(105, 105, 105);
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1> Uso de Tabelas Grandes</h1>
+    <table>
+        <thead>
+            <th>Sigla</th>
+            <th>Estados</th>
+            <th>População</th>
+        </thead>
+        <tbody>
+            <tr> 
+                <td>SP</td>
+                <td> São Paulo</td>
+                <td class="numero"> 790 233 345</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td>Minas Gerais</td>
+                <td class="numero"> 238 438 434</td>
+            </tr>
+            <tr>
+                <td>RJ</td>
+                <td>Rio de Janeiro</td>
+                <td class="numero">436 437 456</td>
+            </tr>
+            <tr>
+                <td>RN</td>
+                <td>Rio Grande Do Norte</td>
+                <td class="numero">83 364 843</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr> 
+                <th>Desegnição</th>
+                <th>Total de Habitantes</th>
+                <td class="numero">0000</td>
+            </tr>
+
+        </tfoot>
+    </table>
     
 </body>
 </html>
