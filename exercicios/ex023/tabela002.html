@@ -22,21 +22,35 @@
         }
         table{
             border: 2px solid black;
-            width: 450px;
-            height: 350px;
+            width: 500px;
+            height: 850px;
             margin: auto;
             border-collapse: collapse;
+            position: relative;
         }
         td{
             border: 2px solid black;
             padding: 10px;
         }
 
-        tbody tr:nth-child(2n) {
+        tbody tr:nth-child(odd) {
             background-color: rgb(255, 255, 255);
+            text-decoration: underline;
 
         }
 
+        tbody tr:nth-child(even) {
+            background-color: rgb(180, 180, 180);
+            font-weight: bolder;
+
+        }
+
+        thead > tr > th{
+            position: sticky;
+            background-color: rgb(105, 105, 105);
+            top: -1px;
+
+        }
 
         td.numero{
             text-align: right;
@@ -88,6 +102,31 @@
                 <td>RN</td>
                 <td>Rio Grande Do Norte</td>
                 <td class="numero">83 364 843</td>
+            </tr>
+            <tr>
+                <td>AC</td>
+                <td>Acre</td>
+                <td class="numero">45 344 545</td>
+            </tr>
+            <tr>
+                <td>BH</td>
+                <td>Bahia</td>
+                <td>847 457 456</td>
+            </tr>
+            <tr>
+                <td>AM</td>
+                <td>Amazonas</td>
+                <td>90 456 567</td>
+            </tr>
+            <tr>
+                <td>AMP</td>
+                <td>Amapa</td>
+                <td>34 456 465</td>
+            </tr>
+            <tr>
+                <td>MR</td>
+                <td>Maranhao</td>
+                <td>346 567 675</td>
             </tr>
         </tbody>
         <tfoot>
