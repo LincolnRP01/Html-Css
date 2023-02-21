@@ -38,7 +38,7 @@
             text-align: right;
         }
         th{
-            padding: 10px;
+            padding: 5px;
             border: 2px solid rgb(0, 0, 0);
         }
         thead, tfoot{
@@ -47,8 +47,9 @@
         }
         caption{
             text-align: center;
-            padding: 2px;
-            background-color: ;
+            font-size: 1.2em;
+            background-color: rgba(0, 0, 0, 0.726);
+            color: white;
         }
     </style>
 </head>
@@ -59,9 +60,9 @@
             Poupulaçao das Unidades Federativas
         </caption>
         <thead>
-            <th>Sigla</th>
-            <th>Estados</th>
-            <th>População</th>
+            <th scope="col" style="width: 10px;" >Sigla</th>
+            <th scope="col">Estados</th>
+            <th scope="col" style="width: 100px;">População</th>
         </thead>
         <tbody>
             <tr> 
@@ -87,8 +88,8 @@
         </tbody>
         <tfoot>
             <tr> 
-                <th>Desegnição</th>
-                <th>Total de Habitantes</th>
+                <th scope="colgroup">Desegnição</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="numero">0000</td>
             </tr>
 
