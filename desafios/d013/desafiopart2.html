@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parte 02 do Desafio 13</title>
+
+    <style>
+        body{
+            background-image: url(https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/61706707_1647059898.1939_YSa5aM_700b.jpg);
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: 100vw;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+
+        h1{
+            background-image: linear-gradient(to top, #0FBCC4, #1F949B,#4F5370);
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            margin: auto;
+        }
+
+        td{
+            padding: 10px;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        tr:nth-child(odd){
+            background-color: #4F5370;
+        }
+        tr:nth-child(even){
+            background-color: #1F949B;
+        }
+
+    </style>
+
 </head>
 <body>
+    <h1>!Criando Tabelas!</h1>
+    <table>
+        <tr>
+            <td colspan="5">A</td>
+            <td colspan="2" rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="5">N</td>
+        </tr>
+    </table>
     
 </body>
 </html>
