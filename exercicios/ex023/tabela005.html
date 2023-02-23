@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabela</title>
+
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        th, td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        caption{
+            padding: 10px;
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
+        col.cnome{
+            background-color: aqua;
+        }
+        col.cgrupo{
+            background-color: rgb(0, 183, 255);
+        }
+        col.cprof{
+            background-color: cyan;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Joao Gabriel</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Radialista</td>
+        </tr>
+        <tr>
+            <td>Manoel Gomes</td>
+            <td>M</td>
+            <td>53</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Romario Lima</td>
+            <td>M</td>
+            <td>36</td>
+            <td>Diretor</td>
+        </tr>
+        <tr>
+            <td>Luciano Hulk</td>
+            <td>M</td>
+            <td>43</td>
+            <td>Apresentador</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
