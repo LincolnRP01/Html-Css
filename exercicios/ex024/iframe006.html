@@ -36,6 +36,10 @@
 
         }
 
+        div.mapa{
+            height: 650px;
+        }
+
         h1{
             text-align: center;
             padding: 10px;
@@ -49,14 +53,25 @@
     </style>
 </head>
 <body>
+
     <h1>Ola mundo! este e meu site.</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quis quos soluta porro molestias. Quisquam, tempora perspiciatis voluptatem sequi laudantium labore, molestiae eos obcaecati porro minus ipsum commodi cum accusantium.</p>
+
     <h2>Videos</h2>
-    <div id="video"><iframe width="800px" height="450px" src="https://www.youtube.com/embed/I1RI-bD-sbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    <div id="video">
+        <iframe width="800px" height="450px" src="https://www.youtube.com/embed/I1RI-bD-sbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis quam inventore reprehenderit quae magni id aut officiis unde nisi odit, sit adipisci dolorum eaque ducimus illo et temporibus vero consequuntur?</p>
-    <iframe srcdoc="" >
-        Seu Navegador nao e compativel com iframes...
-    </iframe>
-    
+
+    <h2>Mapas</h2>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15917.758564986227!2d-38.2383766348877!3d-4.133579559341546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b8971336e9285b%3A0xae1cf84a1cd500ae!2sShopping%20Cascavel!5e0!3m2!1spt-BR!2sbr!4v1677697534408!5m2!1spt-BR!2sbr" width="800" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed aperiam perferendis, totam ea praesentium rerum unde similique, fuga animi quaerat, ducimus repellat? Omnis et libero cum cupiditate perspiciatis accusantium commodi.</p>
+
+    <h2>Mapas com Waze</h2>
+    <div class="mapa">
+        <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-4.130073&lon=-38.239150&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
