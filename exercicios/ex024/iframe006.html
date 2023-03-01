@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteudo dentro do iframe</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-image: linear-gradient(to right, #232981, #242A3A, #000000);
+            text-align: justify;
+            color: white;
+            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.884);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            padding: 10px;
+            margin-left: 5px;
+        }
+
+        div#video{
+            margin: 0px;
+            height: 650px;
+
+        }
+
+        iframe{
+            display: block;
+            margin: auto;
+            width: 90%;
+            height: 90%;
+            padding: 15px;
+
+        }
+
+        h1{
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2{
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola mundo! este e meu site.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quis quos soluta porro molestias. Quisquam, tempora perspiciatis voluptatem sequi laudantium labore, molestiae eos obcaecati porro minus ipsum commodi cum accusantium.</p>
+    <h2>Videos</h2>
+    <div id="video"><iframe width="800px" height="450px" src="https://www.youtube.com/embed/I1RI-bD-sbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis quam inventore reprehenderit quae magni id aut officiis unde nisi odit, sit adipisci dolorum eaque ducimus illo et temporibus vero consequuntur?</p>
+    <iframe srcdoc="" >
+        Seu Navegador nao e compativel com iframes...
+    </iframe>
+    
+</body>
+</html>
