@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formularios com Checkbox e Radio</h1>
+    <form action="formulario.php" autocomplete="on" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="imasc">Masculino</label> <input type="radio" name="sexo" id="imasc"><br>
+            <label for="ifem">Feminino</label> <input type="radio" name="sexo" id="ifem"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Cor Favorita</legend>
+            <label for="ibranco">Branco</label> <input type="checkbox" name="branco" id="ibranco"> <br>
+            <label for="ipreto">Preto</label> <input type="checkbox" name="Preto" id="ipreto"><br>
+            <label for="icinza">Cinza</label> <input type="checkbox" name="Cinza" id="icinza"><br>
+            <label for="iroxo">Roxo</label> <input type="checkbox" name="Roxo" id="iroxo"><br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
