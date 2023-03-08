@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Exemplo de Formularios com Select , Datalist e Textarea</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <fieldset>
+            <legend>Exemplo de Select</legend>
+            <p>
+                <label for="estado">Estado</label>
+                <select name="list" id="ilist">
+                    <option selected>...Selecione...</option>
+                    <option value="CE">Ceara</option>
+                    <option value="SP">Sao Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="MR">Maranhao</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Exemplo de Datalist</legend>
+            <p>
+                <label for="iprof">Profissoes</label> 
+                <input type="text" name="Profissoes" id="iprof" list="proflist">
+                <Datalist id="proflist">
+                    <option>Policial</option>
+                    <option>Desenvolvedor</option>
+                    <option>Engenheiro</option>
+                    <option>Eletricista</option>
+                </Datalist>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Exemplo de Textarea</legend>
+            <p>
+                <label for="imsg">Deixe seu Feedback</label> <br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
