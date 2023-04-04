@@ -1,0 +1,5 @@
+@charset "UTD-8";
+
+html, body{
+    background-image: linear-gradient(to right, rgb(51, 51, 51), rgb(80, 80, 80), gray);
+}
