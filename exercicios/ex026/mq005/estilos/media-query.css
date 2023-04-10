@@ -4,11 +4,13 @@
     #burguer{
         display: none;
     }
+
     menu{
         display: block;
     }
 
     menu > ul > li{
+        width: 10vw;
         display: inline-block;
     }
 
